@@ -38,8 +38,7 @@ h1{
     }
 
     .switch-buttons_dark{
-        background-color:var(--background-color);
-        text-decoration-color: var(--text-color);
+        background-color:var(--text-color);
         color: #d3d3d3;
         margin-bottom: 1vh;
     }
