@@ -8,8 +8,8 @@ if (localStorage.getItem("lastActiveSheet")) {
 }
 
 // Assign the event lister to each button
-for (var i = 0; i < button.length; i++) {
-  button[i].addEventListener("click", switchStyle);  
+for (var i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener("click", switchStyle);  
 }
 
 
