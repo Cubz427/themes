@@ -27,18 +27,19 @@ h1{
         margin-left: 50vw;
         border-radius: 1em;
         font-size: 16px;
+        padding: 0.5em;
     }
 
-    .switch-button_light{
+    .switch-buttons_light{
         margin-top: 2vh;
-        background-color: var(--background-color);
-        text-decoration-color: var(--text-color);
+        background-color: var(--text-color);
+        color: var(--background-color);
         margin-bottom: 1vh;
     }
 
-    .switch-button_dark{
-        background-color:var(--text-color);
-        color: #d3d3d3;
+    .switch-buttons_dark{
+        background-color:var(--background-color);
+        color: var(--header-color);
         margin-bottom: 1vh;
     }
 
